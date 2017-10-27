@@ -6,6 +6,7 @@ class goodAndDevil(object):
 
         def index(self):
             return self.generahtml()
+        a
 
 
 
