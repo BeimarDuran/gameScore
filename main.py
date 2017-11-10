@@ -11,6 +11,7 @@ class goodAndDevil(object):
 
 
 
+
 if __name__ == '__main__':
     conf = {
         '/': {
