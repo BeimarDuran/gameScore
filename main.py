@@ -1,21 +1,12 @@
-import cherrypy, os
+import cherrypy,os
+from generadorHtml import GeneradorHTML
+from archivos import LectorArchivos
 
 
 class goodAndDevil(object):
-        @cherrypy.expose
-
-        def index(self):
-            return self.generahtml()
-        a
-
-
-
-
-    def generahtml(self):
-        html = ""
-        for i in range(10):
-            html += str(i)
-            return html
+    @cherrypy.expose
+    def index(self):
+        return LectorArchivos().creaArchivos()
 
 
 
